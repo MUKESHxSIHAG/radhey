@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --ff-primary: 'Nunito';
+    --fs-xs: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 22px;
+    --fs-xxl: 24px;
+    --fs-xxxl: 27px;
+    --fs-4xl: 36px;
+
+
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+    --extraBold: 800;
+    --black: 900;
+
+
+    --primary-color: #6022EA;
+    --secondary-color: #010223;
+    --heading-color: #F6F6F6;
+    --light-color: #FEFEFE;
+    --dark-color: #0D0D0D;
+    --gray-color: #868687;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+
+
+
+}
+
+.fs-14 {
+    font-size: var(--fs-xs);
+}
+
+.fs-16 {
+    font-size: var(--fs-sm);
+}
+
+.fs-24 {
+    font-size: var(--fs-md);
+}
+
+.fs-35 {
+    font-size: var(--fs-lg);
+}
+
+.fs-36 {
+    font-size: var(--fs-xl);
+}
+
+.fs-40 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-48 {
+    font-size: var(--fs-xxxl);
+}
+
+.fs-64 {
+    font-size: var(--fs-4xl);
+}
+
+
+/* *****FONT_WEIGHT****** */
+
+.fw-400 {
+    font-weight: var(--regular);
+}
+
+.fw-500 {
+    font-weight: var(--medium);
+}
+
+.fw-600 {
+    font-weight: var(--semiBold);
+}
+
+.fw-700 {
+    font-weight: var(--bold);
+}
+
+.fw-800 {
+    font-weight: var(--extraBold);
+}
+
+.fw-900 {
+    font-weight: var(--black);
+}
+
+
+/* ******Font_Color***** */
+
+.fc-primary {
+    color: var(--primary-color);
+}
+
+.fc-secondary {
+    color: var(--secondary-color);
+}
+
+.fc-heading {
+    color: var(--heading-color);
+}
+
+.fc-light {
+    color: var(--light-color);
+}
+
+.fc-filter{
+    color: #03e9f4;
+    filter: hue-rotate(-20deg);
+}
+
+.fc-dark {
+    color: var(--dark-color);
+}
+
+.fc-gray {
+    color: var(--gray-color);
+}
+
+.fc-black {
+    color: var(--black-color);
+}
+
+.fc-white {
+    color: var(--white-color);
+}
+
+/* *****Font-Family****** */
+
+.ff-Nunito {
+    font-family: var(--ff-primary) !important;
+}
+
+.text-clr {
+    filter: hue-rotate(310deg);
+    color: #03e9f4;
+
+}
+
+
+@media (min-width:576px) {
+    :root {
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 24px;
+        --fs-xl: 26px;
+        --fs-xxl: 30px;
+        --fs-xxxl: 32px;
+        --fs-4xl: 36px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 22px;
+        --fs-lg: 28px;
+        --fs-xl: 30px;
+        --fs-xxl: 32px;
+        --fs-xxxl: 36px;
+        --fs-4xl: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 24px;
+        --fs-lg: 32px;
+        --fs-xl: 33px;
+        --fs-xxl: 36px;
+        --fs-xxxl: 44px;
+        --fs-4xl: 43px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 24px;
+        --fs-lg: 35px;
+        --fs-xl: 36px;
+        --fs-xxl: 40px;
+        --fs-xxxl: 48px;
+        --fs-4xl: 51px;
+    }
+}
+
+@media (min-width:1400px) {
+    :root {
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 24px;
+        --fs-lg: 35px;
+        --fs-xl: 36px;
+        --fs-xxl: 40px;
+        --fs-xxxl: 48px;
+        --fs-4xl: 72px;
+    }
+}
