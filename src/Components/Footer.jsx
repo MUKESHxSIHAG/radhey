@@ -20,7 +20,7 @@ const Footer = () => {
 
                         <Col lg={3} xs={6}>
                             <div className='d-flex justify-content-center align-items-center'>
-                                <ul className='pt-4'>
+                                <ul className='pt-4 '>
                                     <li className='fc-white ff-Nunito fw-700 fs-16'>About</li>
                                     <li className='mt-2 '><a className='fc-white ff-Nunito fw-400 fs-14 underline' href="">Merchants</a></li>
                                     <li className='mt-2 '><a className='fc-white ff-Nunito fw-400 fs-14 underline' href="">Partners</a></li>
